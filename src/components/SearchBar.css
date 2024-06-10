@@ -8,6 +8,46 @@
   .search-bar input {
     padding: 10px;
     width: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid #eb065a;
     border-radius: 5px;
   }  
+
+  .alert-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .alert-box {
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #eb065a;
+  }
+  
+  .alert-box p {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .alert-box button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .alert-box button:hover {
+    background: #0056b3;
+  }
